@@ -1,0 +1,20 @@
+.build/
+.swiftpm/
+*.xcodeproj/
+.DS_Store
+
+
+
+
+# Source files from the original Dancer discs
+Resources/
+*.cab
+*.Cab
+*.CAB
+*.dnc
+*.Dnc
+*.dat
+*.Dat
+
+# Local Claude Code settings
+.claude/
