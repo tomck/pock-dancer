@@ -6,13 +6,17 @@ A nostalgic Microsoft Dancer for your Touch Bar: a [Pock](https://pock.app) widg
 
 ## Requirements
 
-- A Touch Bar Mac (this build targets Intel / x86_64) with [Pock](https://pock.app) installed in /Applications
+- A Touch Bar Mac (this build targets Intel / x86_64) with [Pock](https://pock.app) **0.9.0** installed in /Applications
 - Xcode command line tools (`xcode-select --install`), and `ffmpeg` (`brew install ffmpeg`)
 
 ## Get the dancers
 
 - **Scooby Doo** (the free trial): https://archive.org/details/scooby_dancerle. You need `ScoobyDoo_L.Dnc`.
 - **The other dancers** (Amanda and the rest, from the `MSPLUS!DME` disc image): https://archive.org/details/msplus-dme Each dancer is a `.cab` in the disc's folders; the `_l` ones are the large versions.
+
+## Pock versions
+
+This widget is built and tested against **Pock 0.9.0**, the last release from the original author. The community forks PockV2 and PockV3 aren't supported: PockV3 bundles an older PockKit whose widget API differs from 0.9.0's, and it crashes on launch if any 0.9.0-style widget (this one included) is in `~/Library/Application Support/Pock/Widgets`. Don't run PockV3 against the same Widgets folder as 0.9.0.
 
 ## Install
 
